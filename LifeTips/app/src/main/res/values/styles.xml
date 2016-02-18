@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--actionbar颜色-->
+        <item name="colorPrimary">@color/action_lightblue</item>
+
+        <!-- 状态栏颜色，会被statusBarColor效果覆盖-->
+        <item name="colorPrimaryDark">@color/status_lightblue</item>
+
+
+
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/window_bg_lightgray</item>
+
+        <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <item name="android:statusBarColor">@color/action_lightblue_trans</item>
+
+
+        <!-- 底部栏颜色 -->
+        <item name="android:navigationBarColor">@color/navigation_lightblue</item>
+
+        <!-- ListView的分割线颜色，switch滑动区域色-->
+        <item name="android:colorForeground">@color/gray_666</item>
+
+        <!-- popMenu的背景色 -->
+        <item name="android:colorBackground">@color/bg_lightblue</item>
+
+        <!-- 控件默认颜色 ，效果会被colorControlActivated取代  -->
+        <item name="colorAccent">@color/control_activated_lightblue</item>
+
+        <!-- 控件默认时颜色  -->
+        <item name="colorControlNormal">@color/control_normal_lightblue</item>
+
+        <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent  -->
+        <item name="colorControlHighlight">@color/control_highlight_lightblue</item>
+        <!-- 控件选中时颜色 -->
+        <item name="colorControlActivated">@color/control_activated_lightblue</item>
+        <!-- Button的默认背景 -->
+        <item name="colorButtonNormal">@color/button_normal_lightblue</item>
+
+        <!-- Button，textView的文字颜色  -->
+        <item name="android:textColor">@color/black_text_57</item>
+        <!-- RadioButton checkbox等控件的文字 -->
+        <item name="android:textColorPrimaryDisableOnly">@color/black_text_57</item>
+        <!-- actionBar的标题文字颜色 -->
+        <item name="android:textColorPrimary">@color/black_text_57</item>
+
+
+        <!--將新加入的風格 AppTheme.MyDrawerStyle 設定給 drawerArrowStyle 這個屬性-->
+        <item name="drawerArrowStyle">@style/AppTheme.MyDrawerArrowStyle</item>
+
+        <!--使用转场动画-->
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <!--將 spinBars 屬性設定為 false-->
+        <!--<item name="spinBars">false</item>-->
+        <!--設定 drawer arrow 的顏色-->
+        <item name="color">@color/window_bg_lightblue</item>
+    </style>
+
+
+
+
+</resources>

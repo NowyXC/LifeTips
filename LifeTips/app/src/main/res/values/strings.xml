@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LifeTips</string>
+
+
+    <string name="drawer_open">开启</string>
+    <string name="drawer_close">关闭</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_01"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/navigation_02"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/navigation_03"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/navigation_04"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/navigation_05"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/app_name"
+            >
+
+        </item>
+    </group>
+
+    <item
+        android:title="sub item"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/sub_item_01"
+                android:checkable="true"
+                android:icon="@mipmap/ic_launcher"
+                android:title="sub_item_01"
+                />
+
+            <item
+                android:id="@+id/sub_item_02"
+                android:checkable="true"
+                android:icon="@mipmap/ic_launcher"
+                android:title="sub_item_02"
+                />
+        </menu>
+    </item>
+</menu>
